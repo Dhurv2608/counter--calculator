@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+
+}
+.content{
+  /* background-image: radial-gradient(circle, #9400D3, #4B0082, #0000FF,#00FF00,#FFFF00,#FF7F00,#FF0000 ); */
+  background-color: #61dafb;
+  height: 100vh;
+}
+h1{
+  color: white;
+}
+.content h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+table{
+  width: 70%;
+  border: 1px double ;
+  border-radius:  5px ;
+  padding: 5px;
+  
+}
+table thead th{
+  border: 1px solid;
+  padding: 5px;
+}
+table tbody tr td {
+  color: white;
+  background-color: black;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.border{
+   color: black;
+  background-color: white;
+  font-weight: bold;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.border{
+  width: 272px;
+  height: 532px;
+  border-radius: 25px;
+  border-bottom: 3px groove #c7c7c7;
+}
+.fone_sencer{
+  border: 4px groove #c7c7c7;
+  width: 100px;
+  margin-top: 6px;
+  margin-left: 85px;
+  border-radius: 25px;
+}
+.pone-line{
+  border: 3px groove #c7c7c7;
+  width: 140px;
+  margin-top: 30px;
+  margin-left: 65px;
+  border-radius: 25px;
+}
+body{
+  background-color: #000;
+}
+.fone {
+  width: 270px;
+  height: 520px;
+  
+  border-radius: 25px;
+ 
+  background: #000;
+
+}
+
+.fone_input {
+  margin-top: 120px;
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+
+}
+
+.cal_button {
+
+  padding: 12px 19px;
+  margin: 5px 0 0 5px;
+  border-radius: 50%;
+  background: #777;
+}
+
+.oreng_btn {
+  background-color: orange;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.0);
+}
+
+.ccal_button {
+  background-color: #c7c7c7;
+  padding: 12px 19px;
+  margin: 5px 0 0 5px;
+  border-radius: 50%;
+}
+
+.btn-width_extra {
+  width: 90%;
+  border-radius: 25px;
+}
